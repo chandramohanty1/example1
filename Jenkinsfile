@@ -19,7 +19,7 @@ pipeline {
                    if(branchName == "master"){
                       println("Deploying to Prod.")
                    }
-                   else if(branchName == "test"){
+                   else if(branchName == "feature"){
                       println("Deploying to Test.")
                    }
                 }
